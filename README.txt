@@ -55,7 +55,7 @@ Usage is fairly straightforward:
     $mustache = new Mustache();
     echo $mustache->render('some-template', $view);
 
-By default, phly_mustache will look under the current directory for templates
+By default, phly-mustache will look under the current directory for templates
 ending with '.mustache'; you can create a stack of directories to search by
 using the setTemplatePath() method:
 
@@ -101,15 +101,15 @@ the return value of the callback will be used.
         return $view->first_name . ' ' . $view->last_name;
     };
 
-The following sections detail unique and/or advanced features of phly_mustache.
+The following sections detail unique and/or advanced features of phly-mustache.
 
 Autoloading
 ===========
-phly_mustache follows the PSR-0 standard for class naming conventions, meaning
+phly-mustache follows the PSR-0 standard for class naming conventions, meaning
 any PSR-0-compliant class loader will work. To simplify things out of the box,
 the component contains an "_autoload.php" file which will register an autoloader
-for the phly_mustache component with spl_autoload. You can simply include that
-file, and start using phly_mustache.
+for the phly-mustache component with spl_autoload. You can simply include that
+file, and start using phly-mustache.
 
 Higher Order Sections
 =====================
@@ -188,7 +188,7 @@ whitespace stripping:
 Caching Tokens
 ==============
 Tokens from parsed templates may be cached for later usage; alternately, a new
-instance of phly_mustache may be seeded with cached tokens from a previous
+instance of phly-mustache may be seeded with cached tokens from a previous
 instance. 
 
 To get the list of tokens, use the following:
@@ -204,7 +204,7 @@ the following:
 This will overwrite any tokens already compiled by that instance.
 
 Since the tokens are template name/token list pairs, you can safely pass them to
-array_merge(), allowing multiple instances of phly_mustache to build up a large
+array_merge(), allowing multiple instances of phly-mustache to build up a large
 cache of template tokens. This will greatly improve performance when rendering
 templates on subsequent calls -- particularly if you cache the tokens in a
 memory store such as memcached.
@@ -243,9 +243,9 @@ scope, which means:
    appropriate rendering.
 
 For ideas on how you might use or implement pragmas, examine the pragmas shipped
-with phly_mustache.
+with phly-mustache.
 
-Pragmas shipped with phly_mustache
+Pragmas shipped with phly-mustache
 ----------------------------------
 
 IMPLICIT-ITERATOR

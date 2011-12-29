@@ -1,5 +1,5 @@
 <phpunit bootstrap="./bootstrap.php">
-    <testsuite name="phly_mustache Test Suite">
+    <testsuite name="phly-mustache Test Suite">
         <directory>./</directory>
     </testsuite>
 
