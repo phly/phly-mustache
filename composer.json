@@ -4,7 +4,7 @@
     "keywords": ["mustache"],
     "homepage": "https://github.com/phly/phly-mustache",
     "type": "library",
-    "license": "https://raw.github.com/weierophinney/phly-mustache/master/LICENSE",
+    "license": "BSD-3-Clause",
     "authors": [
         {
             "name": "Matthew Weier O'Phinney",
