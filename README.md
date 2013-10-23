@@ -1,7 +1,7 @@
 Phly\Mustache
 =============
 
-[![Build Status](https://secure.travis-ci.org/weierophinney/phly-mustache.png?branch=master)](http://travis-ci.org/weierophinney/phly-mustache)
+[![Build Status](https://secure.travis-ci.org/phly/phly-mustache.png?branch=develop)](http://travis-ci.org/phly/phly-mustache)
 
 Phly\Mustache is a Mustache (http://mustache.github.com) implementation written
 for PHP 5.3+. It conforms to the principles of mustache, and allows for
