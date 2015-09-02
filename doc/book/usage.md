@@ -1,12 +1,12 @@
-# Usage and Installation 
+# Usage and Installation
 
 ## Installation
 
-To install `phly-mustache`, require ``phly/mustache`` via
+To install `phly-mustache`, require ``phly/phly-mustache`` via
 [Composer](http://getcomposer.org):
 
 ```bash
-$ composer require phly/mustache
+$ composer require phly/phly-mustache
 ```
 
 ## Usage
