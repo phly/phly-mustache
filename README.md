@@ -10,7 +10,7 @@ In particular, it offers support for [template
 inheritance](https://github.com/mustache/spec/pull/75) ala
 [hogan.js](https://github.com/twitter/hogan.js), using the `{{<parent}}` syntax.
 
-For full documentation, please visit 
+For full documentation, please visit
 [ReadTheDocs](http://phly-mustache.readthedocs.org/).
 
 The mailing list is at https://groups.google.com/d/forum/phly-mustache
@@ -20,7 +20,7 @@ The mailing list is at https://groups.google.com/d/forum/phly-mustache
 Install via composer:
 
 ```bash
-$ composer require phly/mustache
+$ composer require phly/phly-mustache
 ```
 
 ## Documentation
