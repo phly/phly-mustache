@@ -64,7 +64,7 @@ default resolver:
 ```php
 use Phly\Mustache\Resolver\DefaultResolver;
 
-$resolver = new DefaultResolver(;
+$resolver = new DefaultResolver();
 $resolver->addTemplatePath($path1);
 $resolver->addTemplatePath($path2);
 
@@ -131,7 +131,7 @@ class View
 Any property (or array key) may also refer to a valid callback; in such cases,
 the return value of the callback will be used.
 
-```
+```php
 $view = new stdClass;
 $view->first_name = 'Matthew';
 $view->last_name  = "Weier O'Phinney";
@@ -140,7 +140,7 @@ $view->full_name  = function() use ($view) {
 };
 ```
 
-Refer to the documentation([online](http://phly-mustache.readthedocs.org) /
+Refer to the documentation ([online](http://phly-mustache.readthedocs.org) /
 [local](doc/book/)) for full usage details.
 
 ## Architecture
