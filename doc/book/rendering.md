@@ -1,6 +1,6 @@
 # Rendering
 
-Rendering requires specifying a *template* and a *view*. 
+Rendering requires specifying a *template* and a *view*.
 
 Overview: Templates and Views
 -----------------------------
@@ -105,7 +105,7 @@ $test = $mustache->render(
 echo $test;
 ```
 
-which outputs as 
+which outputs as
 
 ```html
 Hello World
@@ -126,7 +126,7 @@ between `{{!` and `}}`. Please note the character `!`.
 Hello {{planet}}
 ```
 
-Now you can render it 
+Now you can render it
 
 ```php
 $test = $mustache->render('renders-file-templates', array(
@@ -134,7 +134,7 @@ $test = $mustache->render('renders-file-templates', array(
 ));
 ```
 
-Outputs : 
+Outputs :
 
 ```html
 Hello World
@@ -146,8 +146,13 @@ You may have noticed we have not added the suffix when we pass the template
 name.  By default the suffix is ".mustache".  However, you can change the suffix
 as desired; as an example, you might want to simply use `.html`.
 
+To do this, fetch the `DefaultResolver` from the list of resolvers composed, and
+set the suffix you wish to use:
+
 ```php
-$mustache->setSuffix('html');
+use Phly\Mustache\Resolver\DefaultResolver;
+
+$mustache->getResolver()->fetchByType(DefaultResolver::class)->setSuffix('html');
 $test = $mustache->render('alternate-suffix', array());
 ```
 
