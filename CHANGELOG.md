@@ -1,8 +1,12 @@
 # Changelog
 
-All notable changes to this project will be documented in this file, in reverse chronological order by release.
+All notable changes to this project will be documented in this file, in reverse
+chronological order by release.
 
-## 2.0.0 - TBD
+Please note: changelogs were introduced starting with 2.0. For information on
+previous versions, read through the release tags.
+
+## 2.0.0 - 2015-09-02
 
 ### Added
 
