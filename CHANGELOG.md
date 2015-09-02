@@ -6,6 +6,24 @@ chronological order by release.
 Please note: changelogs were introduced starting with 2.0. For information on
 previous versions, read through the release tags.
 
+## 2.0.1 - TBD
+
+### Added
+
+- Nothing.
+
+### Deprecated
+
+- Nothing.
+
+### Removed
+
+- Nothing.
+
+### Fixed
+
+- Nothing.
+
 ## 2.0.0 - 2015-09-02
 
 ### Added
