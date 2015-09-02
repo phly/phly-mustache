@@ -140,7 +140,7 @@ $view->full_name  = function() use ($view) {
 };
 ```
 
-Refer to the documentation([online](http://phly-mustache.readthedocs.org) /
+Refer to the documentation ([online](http://phly-mustache.readthedocs.org) /
 [local](doc/book/)) for full usage details.
 
 ## Architecture
