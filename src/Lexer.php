@@ -131,7 +131,6 @@ class Lexer
     /**
      * Compile a string into a set of tokens.
      *
-     * @todo   Store full matched text with each token?
      * @param  Mustache $mustache Mustache instance invoking compilation.
      * @param  string $string
      * @param  null|string $templateName Template to use in the case of a

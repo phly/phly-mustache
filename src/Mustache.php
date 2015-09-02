@@ -11,8 +11,6 @@ use Traversable;
 
 /**
  * Mustache implementation
- *
- * @todo Prevent duplicate paths from being added
  */
 class Mustache
 {
@@ -133,7 +131,6 @@ class Mustache
     /**
      * Render a template using a view, and optionally a list of partials
      *
-     * @todo   should partials be passed here? or simply referenced?
      * @param  string $template Either a template string or a template file in the template path
      * @param  array|object $view An array or object with items to inject in the template
      * @param  array|object $partials A list of partial names/template pairs for rendering as partials
