@@ -13,7 +13,7 @@ inheritance](https://github.com/mustache/spec/pull/75) ala
 For full documentation, please visit
 [ReadTheDocs](http://phly-mustache.readthedocs.org/).
 
-The mailing list is at https://groups.google.com/d/forum/phly-mustache
+The mailing list is at https://groups.google.com/d/forum/phly_mustache
 
 ## Installation
 
