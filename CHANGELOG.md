@@ -24,7 +24,7 @@ previous versions, read through the release tags.
 
 - Nothing.
 
-## 2.0.1 - TBD
+## 2.0.1 - 2016-07-02
 
 ### Added
 
@@ -40,7 +40,8 @@ previous versions, read through the release tags.
 
 ### Fixed
 
-- Nothing.
+- Updates the zend-stdlib dependency to also allow version 3, as the features it
+  consumes remain compatible.
 
 ## 2.0.0 - 2015-09-02
 
