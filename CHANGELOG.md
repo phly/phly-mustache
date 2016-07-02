@@ -24,6 +24,24 @@ previous versions, read through the release tags.
 
 - Nothing.
 
+## 2.0.2 - TBD
+
+### Added
+
+- Nothing.
+
+### Deprecated
+
+- Nothing.
+
+### Removed
+
+- Nothing.
+
+### Fixed
+
+- Nothing.
+
 ## 2.0.1 - 2016-07-02
 
 ### Added
