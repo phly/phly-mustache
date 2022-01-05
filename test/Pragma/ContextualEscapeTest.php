@@ -11,7 +11,7 @@ use Phly\Mustache\Mustache;
 use Phly\Mustache\Pragma;
 use Phly\Mustache\Renderer;
 use PHPUnit_Framework_TestCase as TestCase;
-use Zend\Escaper\Escaper;
+use Laminas\Escaper\Escaper;
 
 class ContextualEscapeTest extends TestCase
 {
