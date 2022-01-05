@@ -7,7 +7,7 @@
 namespace Phly\Mustache;
 
 use Traversable;
-use Zend\Escaper\Escaper;
+use Laminas\Escaper\Escaper;
 
 /**
  * Mustache renderer

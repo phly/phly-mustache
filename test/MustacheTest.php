@@ -669,7 +669,7 @@ EOT;
         $this->assertTrue($resolver->hasType(DefaultResolver::class));
 
         // Now, make sure it's at the end of the queue. This requires:
-        // - Fetching the queue property (a Zend\Stdlib\PriorityQueue)
+        // - Fetching the queue property (a Laminas\Stdlib\PriorityQueue)
         // - Fetching the iterator from the queue (an SplPriorityQueue)
         // - Extracting the priority specification for the resolver (an array of
         //   priority, seed within priority)

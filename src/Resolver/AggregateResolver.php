@@ -9,7 +9,7 @@ namespace Phly\Mustache\Resolver;
 use Countable;
 use IteratorAggregate;
 use Phly\Mustache\Exception;
-use Zend\Stdlib\PriorityQueue;
+use Laminas\Stdlib\PriorityQueue;
 
 class AggregateResolver implements Countable, IteratorAggregate, ResolverInterface
 {
