@@ -1,5 +1,9 @@
 # phly-mustache
 
+> :warning: **Archived 2025-08-17**
+>
+> Use at your own risk.
+
 [![Build Status](https://secure.travis-ci.org/phly/phly-mustache.png?branch=develop)](http://travis-ci.org/phly/phly-mustache)
 
 phly-mustache is a [Mustache](http://mustache.github.com) implementation written
